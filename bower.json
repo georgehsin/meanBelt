@@ -1,0 +1,21 @@
+{
+  "name": "meanBelt",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "George Hsin <georgehsin@ucla.edu>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.0",
+    "angular-route": "^1.6.0"
+  }
+}

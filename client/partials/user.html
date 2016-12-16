@@ -1,0 +1,11 @@
+Bucket List| <a href="#!/dashboard">Home</a> | <a href="#!/" ng-click='logout()'>Logout</a>
+
+<h1>{{user.name}}'s Bucket List</h1>
+
+Done
+<div ng-repeat='list in lists.lists'>
+<input type="checkbox" name="checkbox" id={{list.title}} value="value">
+<label for={{list.title}}>{{list.title}} | {{list.description}} | {{list.createdAt}}</label>
+</div>
+
+Pending
